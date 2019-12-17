@@ -1,0 +1,6 @@
+logs/*
+saves/*
+.mixin.out/*
+.fabric/*
+usercache.json
+*.[oa]
