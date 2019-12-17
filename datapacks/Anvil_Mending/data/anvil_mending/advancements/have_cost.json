@@ -1,0 +1,182 @@
+{
+	"criteria": {
+		"have_cost1": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"nbt": "{RepairCost:1}"
+				}]
+			}
+		},
+		"have_cost2": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"nbt": "{RepairCost:2}"
+				}]
+			}
+		},
+		"have_cost3": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"nbt": "{RepairCost:3}"
+				}]
+			}
+		},
+		"have_cost4": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"nbt": "{RepairCost:4}"
+				}]
+			}
+		},
+		"have_cost5": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"nbt": "{RepairCost:5}"
+				}]
+			}
+		},
+		"have_cost6": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"nbt": "{RepairCost:6}"
+				}]
+			}
+		},
+		"have_cost7": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"nbt": "{RepairCost:7}"
+				}]
+			}
+		},
+		"have_cost8": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"nbt": "{RepairCost:8}"
+				}]
+			}
+		},
+		"have_cost9": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"nbt": "{RepairCost:9}"
+				}]
+			}
+		},
+		"have_cost10": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"nbt": "{RepairCost:10}"
+				}]
+			}
+		},
+		"have_cost11": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"nbt": "{RepairCost:11}"
+				}]
+			}
+		},
+		"have_cost12": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"nbt": "{RepairCost:12}"
+				}]
+			}
+		},
+		"have_cost13": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"nbt": "{RepairCost:13}"
+				}]
+			}
+		},
+		"have_cost14": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"nbt": "{RepairCost:14}"
+				}]
+			}
+		},
+		"have_cost15": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"nbt": "{RepairCost:15}"
+				}]
+			}
+		},
+		"have_cost16": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"nbt": "{RepairCost:16}"
+				}]
+			}
+		},
+		"have_cost17": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"nbt": "{RepairCost:17}"
+				}]
+			}
+		},
+		"have_cost18": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"nbt": "{RepairCost:18}"
+				}]
+			}
+		},
+		"have_cost19": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"nbt": "{RepairCost:19}"
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"have_cost1",
+			"have_cost2",
+			"have_cost3",
+			"have_cost4",
+			"have_cost5",
+			"have_cost6",
+			"have_cost7",
+			"have_cost8",
+			"have_cost9",
+			"have_cost10",
+			"have_cost11",
+			"have_cost12",
+			"have_cost13",
+			"have_cost14",
+			"have_cost15",
+			"have_cost16",
+			"have_cost17",
+			"have_cost18",
+			"have_cost19"
+		]
+	],
+	"rewards": {
+		"function": "anvil_mending:find_item"
+	}
+}
