@@ -14,10 +14,6 @@
 		"itemListOrdering": "REGISTRY_ASCENDING",
 		// Declares the appearance of REI windows.
 		"darkTheme": false,
-		/* Whether REI should render entry's overlay.
-		   Example: Enchantment Glint
-		*/
-		"renderEntryExtraOverlay": true,
 		// The ordering of the items on the item panel.
 		"recipeScreenType": "UNSET",
 		// Declares the position of the search field.
@@ -65,5 +61,9 @@
 		// Declares the command used to change weather.
 		"weatherCommand": "/weather {weather}",
 		"registerRecipesInAnotherThread": true
+	},
+	"performance": { 
+		// Whether REI should render entry's enchantment glint
+		"renderEntryEnchantmentGlint": true
 	}
 }
