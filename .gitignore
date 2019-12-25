@@ -1,6 +1,9 @@
 logs/*
 saves/*
+crash-reports/*
+mods/mamiyaotaru/voxelmap/*
 .mixin.out/*
 .fabric/*
 usercache.json
 *.[oa]
+*.zip
