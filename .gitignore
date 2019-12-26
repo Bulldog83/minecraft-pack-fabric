@@ -5,4 +5,5 @@ mods/mamiyaotaru/voxelmap/*
 .mixin.out/*
 .fabric/*
 usercache.json
+realms_persistence.json
 *.[oa]
