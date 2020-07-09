@@ -1,5 +1,5 @@
 {
-  "hasteURL": "https://paste.dimdev.org",
+  "uploadCrashLogTo": "GIST",
   "disableReturnToMainMenu": false,
   "deobfuscateStackTrace": true
 }

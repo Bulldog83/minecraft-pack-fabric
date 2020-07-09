@@ -5,8 +5,6 @@
 	"skipNightOnSofas": true,
 	// Protects trading stations from other players.
 	"protectTradingStations": true,
-	// If true, enables debug features (currently: /adorn resource).
-	"debug": false,
 	// Configuration for Adorn's Extra Pieces support.
 	"extraPieces": {
 		// If true, Adorn's EP support is enabled. You can disable it by setting this property to false.
@@ -15,5 +13,10 @@
 		"carpetedEverything": false,
 		// A list of piece sets that will have carpeting support.
 		"carpetedPieceSets": []
+	},
+	// Client-side settings
+	"client": {
+		// If true, floating tooltips are shown above trading stations.
+		"showTradingStationTooltips": true
 	}
 }

@@ -13,11 +13,27 @@
       "weight": 1.0,
       "enable": true
     },
+    "dunes": {
+      "weight": 0.2,
+      "enable": true
+    },
     "sakura_forest": {
       "weight": 1.0,
       "enable": true
     },
+    "lush_desert": {
+      "weight": 1.0,
+      "enable": true
+    },
+    "canyon_cliffs": {
+      "weight": 1.0,
+      "enable": true
+    },
     "redwood_forest": {
+      "weight": 1.0,
+      "enable": true
+    },
+    "outback": {
       "weight": 1.0,
       "enable": true
     },

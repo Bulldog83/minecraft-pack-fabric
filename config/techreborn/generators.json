@@ -17,20 +17,6 @@
       "value": 262144
     }
   },
-  "water_mill": {
-    "WaterMillMaxEnergy": {
-      "comment": "Water Mill Max Energy (Value in EU)",
-      "value": 1000
-    },
-    "WaterMillMaxOutput": {
-      "comment": "Water Mill Max Output (Value in EU)",
-      "value": 32
-    },
-    "WaterMillEnergyPerTick": {
-      "comment": "Water Mill Energy Multiplier",
-      "value": 0.1
-    }
-  },
   "dragon_egg_siphoner": {
     "DragonEggSiphonerMaxEnergy": {
       "comment": "Dragon Egg Siphoner Max Energy (Value in EU)",
@@ -45,18 +31,18 @@
       "value": 4
     }
   },
-  "thermal_generator": {
-    "ThermalGeneratorMaxOutput": {
-      "comment": "Thermal Generator Max Output (Value in EU)",
-      "value": 128
+  "water_mill": {
+    "WaterMillMaxOutput": {
+      "comment": "Water Mill Max Output (Value in EU)",
+      "value": 32
     },
-    "ThermalGeneratorMaxEnergy": {
-      "comment": "Thermal Generator Max Energy (Value in EU)",
-      "value": 1000000
+    "WaterMillMaxEnergy": {
+      "comment": "Water Mill Max Energy (Value in EU)",
+      "value": 1000
     },
-    "ThermalGeneratorEnergyPerTick": {
-      "comment": "Thermal Generator Energy Per Tick (Value in EU)",
-      "value": 16
+    "WaterMillEnergyPerTick": {
+      "comment": "Water Mill Energy Multiplier",
+      "value": 0.1
     }
   },
   "wind_mill": {
@@ -101,6 +87,20 @@
       "value": 1
     }
   },
+  "thermal_generator": {
+    "ThermalGeneratorMaxEnergy": {
+      "comment": "Thermal Generator Max Energy (Value in EU)",
+      "value": 1000000
+    },
+    "ThermalGeneratorEnergyPerTick": {
+      "comment": "Thermal Generator Energy Per Tick (Value in EU)",
+      "value": 16
+    },
+    "ThermalGeneratorMaxOutput": {
+      "comment": "Thermal Generator Max Output (Value in EU)",
+      "value": 128
+    }
+  },
   "solarPanelAdvanced": {
     "advancedNightRate": {
       "comment": "Generation rate during night for Advanced Solar Panel (Value in FE)",
@@ -114,11 +114,11 @@
   "solarPanelQuantum": {
     "quantumNightRate": {
       "comment": "Generation rate during night for Quantum Solar Panel (Value in FE)",
-      "value": 64
+      "value": 128
     },
     "quantumDayRate": {
       "comment": "Generation rate during day for Quantum Solar Panel (Value in FE)",
-      "value": 1024
+      "value": 2048
     }
   },
   "solarPanelIndustrial": {

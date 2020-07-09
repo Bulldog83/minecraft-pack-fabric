@@ -1,0 +1,9 @@
+{
+  "requireBootsToWalk": true,
+  "requireLeggingsToWalk": true,
+  "requireChestToWalk": false,
+  "requireHelmetToWalk": false,
+  "requireNothingToWalk": false,
+  "worksForPlayer": true,
+  "worksForNonPlayer": true
+}
