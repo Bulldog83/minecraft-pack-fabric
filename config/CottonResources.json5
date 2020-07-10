@@ -6,5 +6,24 @@
 	// Listing a resource here forces it not to generate in the world, even if a mod requests it.
 	"disabledResources": [],
 	// Additional settings for ore generators. Identical to the datapack json
-	"generators": { },
+	"generators": {
+		"minecraft_iron": {
+			"ores": [],
+			"min_height": 40,
+			"max_height": 64,
+			"dimensions": [],
+			"biomes": [],
+			"cluster_count": 64,
+			"cluster_size": 6,
+		},
+		"cotton_ores": {
+			"ores": [],
+			"min_height": 6,
+			"max_height": 64,
+			"dimensions": [],
+			"biomes": [],
+			"cluster_count": 0,
+			"cluster_size": 8,
+		},
+	},
 }
