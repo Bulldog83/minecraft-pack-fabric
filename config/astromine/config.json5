@@ -10,5 +10,9 @@
 	// Y level to spawn at when returning to the Overworld
 	"overworldSpawnYLevel": 992,
 	// Gravity level in Space
-	"spaceGravity": 0.01
+	"spaceGravity": 0.01,
+	// Whether generation of Copper Ore in the Overworld is enabled
+	"overworldCopperOre": true,
+	// Whether generation of Tin Ore in the Overworld is enabled
+	"overworldTinOre": true
 }
