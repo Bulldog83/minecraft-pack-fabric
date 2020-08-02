@@ -3526,7 +3526,7 @@
         "gravel_desert_chance[def: 1.0]": 1.2,
         "nether_jungle_chance[def: 1.0]": 1.0,
         "wart_forest_chance[def: 1.0]": 1.0,
-        "nether_grasslands_chance[def: 1.0]": 1.1,
+        "nether_grasslands_chance[def: 1.0]": 1.0,
         "nether_mushroom_forest_chance[def: 1.0]": 1.0,
         "bone_reef_chance[def: 1.0]": 1.0,
         "nether_swampland_chance[def: 1.0]": 1.0,
@@ -3567,7 +3567,7 @@
     },
     "minecraft": {
       "main": {
-        "nether_wastes_chance[def: 1.0]": 1.4,
+        "nether_wastes_chance[def: 1.0]": 1.3,
         "crimson_forest_chance[def: 1.0]": 1.1,
         "warped_forest_chance[def: 1.0]": 1.1,
         "basalt_deltas_chance[def: 1.0]": 1.1,
@@ -3584,14 +3584,14 @@
     "byg": {
       "glowstone_gardens_chance[def: 1.0]": 0.9,
       "warped_desert_chance[def: 1.0]": 0.8,
-      "sythian_torrids_chance[def: 1.0]": 0.8,
+      "sythian_torrids_chance[def: 1.0]": 0.0,
       "embur_bog_chance[def: 1.0]": 0.2
     },
     "cinderscapes": {
       "blackstone_shales_chance[def: 1.0]": 1.0,
-      "ashy_shoals_chance[def: 1.0]": 0.4,
+      "ashy_shoals_chance[def: 1.0]": 0.6,
       "luminous_grove_chance[def: 1.0]": 1.0,
-      "quartz_canyon_chance[def: 1.0]": 1.0
+      "quartz_canyon_chance[def: 1.0]": 0.9
     }
   },
   "generator_world": {
