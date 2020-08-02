@@ -9,5 +9,5 @@ justmap/
 usercache.json
 realms_persistence.json
 *.[oa]
-options.txt
+*.dat
 options.txt
