@@ -1,6 +1,0 @@
-enableBackup = false
-autoBackup = true
-backupInterval = 60
-backupCommand = ""
-backupWhenExit = false
-saveTimeLeft = true
