@@ -1,7 +1,8 @@
 { 
 	"basics": { 
 		"favorites": [ 
-],
+			"{\"type\":\"stack\",\"nbt\":\"{id:\\\"minecraft:warped_planks\\\",Count:127b}\"}"
+		],
 		// Declares whether cheating mode is on.
 		"cheating": false,
 		"favoritesEnabled": true,

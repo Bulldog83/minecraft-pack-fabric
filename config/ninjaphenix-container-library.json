@@ -5,13 +5,13 @@
 	*/
 	"auto_focus_searchbar": false,
 	/* 
-	   Prefered container type, set to ninjaphenix-container-lib:auto to reuse selection screen.
-	*/
-	"preferred_container_type": "ninjaphenix-container-lib:auto",
-	/* 
 	   Only allows scrolling in scrollable screen whilst hovering over the scrollbar region.
 	*/
 	"restrictive_scrolling": false,
+	/* 
+	   Prefered container type, set to ninjaphenix-container-lib:auto to reuse selection screen.
+	*/
+	"preferred_container_type": "ninjaphenix-container-lib:scrollable",
 	/* 
 	   If true centers the settings cog to the scrollbar in scrollable screens.
 	*/
