@@ -53,6 +53,18 @@
 	"overworldSilverOreMaximumVeins": 3,
 	// Maximum count of Overworld Silver Ore blocks per vein.
 	"overworldSilverOreMaximumBlocks": 9,
+	// Whether generation of Lead Ore in the Overworld is enabled.
+	"overworldLeadOre": true,
+	// Bottom offset of Overworld Lead Ore.
+	"overworldLeadOreBottomOffset": 0,
+	// Top offset of Overworld Lead Ore.
+	"overworldLeadOreTopOffset": 0,
+	// Maximum layer of Overworld Lead Ore.
+	"overworldLeadOreMaximumLayer": 32,
+	// Maximum count of Overworld Lead Ore veins per chunk.
+	"overworldLeadOreMaximumVeins": 5,
+	// Maximum count of Overworld Lead Ore blocks per vein.
+	"overworldLeadOreMaximumBlocks": 6,
 	// Minimum range of Asteroid Coal Ore weight.
 	"asteroidCoalOreMinimumRange": 0,
 	// Maximum range of Asteroid Coal Ore weight.
@@ -101,6 +113,14 @@
 	"asteroidSilverOreMinimumSize": 8,
 	// Maximum Size of Asteroid Silver Ore veins.
 	"asteroidSilverOreMaximumSize": 48,
+	// Minimum range of Asteroid Lead Ore weight.
+	"asteroidLeadOreMinimumRange": 0,
+	// Maximum range of Asteroid Lead Ore weight.
+	"asteroidLeadOreMaximumRange": 48,
+	// Minimum size of Asteroid Lead Ore veins.
+	"asteroidLeadOreMinimumSize": 8,
+	// Maximum Size of Asteroid Lead Ore veins.
+	"asteroidLeadOreMaximumSize": 48,
 	// Minimum range of Asteroid Redstone Ore weight.
 	"asteroidRedstoneOreMinimumRange": 0,
 	// Maximum range of Asteroid Redstone Ore weight.
@@ -331,6 +351,14 @@
 	"ventFluid": 16,
 	// Fluid for the Tank.
 	"tankFluid": 16,
+	// Energy for the Primitive Capacitor.
+	"primitiveCapacitorEnergy": 16384.0,
+	// Energy for the Basic Capacitor.
+	"basicCapacitorEnergy": 32767.0,
+	// Energy for the Advanced Capacitor.
+	"advancedCapacitorEnergy": 65535.0,
+	// Energy for the Elite Capacitor.
+	"eliteCapacitorEnergy": 131071.0,
 	// Energy for the Block Placer actions.
 	"blockPlacerEnergyConsumed": 1024.0,
 	// Energy for the Block Breaker actions.
@@ -348,5 +376,9 @@
 	// Delay for the Fluid Inserter actions (smaller is faster).
 	"fluidInserterTimeConsumed": 40,
 	// Delay for the Fluid Extractor actions (smaller is faster).
-	"fluidExtractorTimeConsumed": 40
+	"fluidExtractorTimeConsumed": 40,
+	// Energy for the Gravity Gauntlet.
+	"gravityGauntletEnergy": 16384.0,
+	// Energy for the Gravity Gauntlet actions.
+	"gravityGauntletConsumed": 1024.0
 }
