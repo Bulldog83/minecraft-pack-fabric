@@ -35788,9 +35788,16 @@ c	net/minecraft/class_3218	net/minecraft/server/world/ServerWorld
 		p	3		radius
 	m	()Lnet/minecraft/class_5138;	method_27056	getStructureAccessor
 	m	()Ljava/lang/Iterable;	method_27909	iterateEntities
+	m	(IIZZ)V	method_27910	setWeather
+		p	1		clearDuration
+		p	2		rainDuration
+		p	3		raining
+		p	4		thundering
 	m	()Lnet/minecraft/class_2338;	method_27911	getSpawnPos
 	m	()Z	method_28125	isFlat
 	m	()Lnet/minecraft/class_2881;	method_29198	getEnderDragonFight
+	m	(J)V	method_29199	setTimeOfDay
+		p	1		timeOfDay
 	m	(Lnet/minecraft/class_3218;)V	method_29200	createEndSpawnPlatform
 		p	0		world
 	m	()V	method_29203	tickTime
@@ -35820,6 +35827,7 @@ c	net/minecraft/class_3218	net/minecraft/server/world/ServerWorld
 	f	Z	field_18264	inEntityTick
 	f	Lnet/minecraft/class_3767;	field_18811	raidManager
 	f	Lnet/minecraft/class_5138;	field_23787	structureAccessor
+	f	Lnet/minecraft/class_5268;	field_24456	worldProperties
 	f	Lnet/minecraft/class_3215;	field_24624	serverChunkManager
 	f	Lnet/minecraft/class_2881;	field_25142	enderDragonFight
 	f	Lnet/minecraft/class_2338;	field_25144	END_SPAWN_POS
@@ -62253,6 +62261,10 @@ c	net/minecraft/class_5268	net/minecraft/world/level/ServerWorldProperties
 	m	(Lnet/minecraft/class_2784$class_5200;)V	method_27415	setWorldBorder
 		p	1		properties
 	m	()Lnet/minecraft/class_2784$class_5200;	method_27422	getWorldBorder
+	m	(J)V	method_29034	setTime
+		p	1		time
+	m	(J)V	method_29035	setTimeOfDay
+		p	1		time
 c	net/minecraft/class_5269	net/minecraft/world/MutableWorldProperties
 	m	(Lnet/minecraft/class_2338;)V	method_187	setSpawnPos
 		p	1		pos
