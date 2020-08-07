@@ -1,8 +1,7 @@
 { 
 	"basics": { 
 		"favorites": [ 
-			"{\"type\":\"stack\",\"nbt\":\"{id:\\\"minecraft:warped_planks\\\",Count:127b}\"}"
-		],
+],
 		// Declares whether cheating mode is on.
 		"cheating": false,
 		"favoritesEnabled": true,
@@ -116,7 +115,7 @@
 		}
 	},
 	"appearance": { 
-		"recipeScreenType": "ORIGINAL",
+		"recipeScreenType": "UNSET",
 		// Declares the appearance of REI windows.
 		"theme": "LIGHT",
 		"layout": { 

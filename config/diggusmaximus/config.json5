@@ -10,11 +10,11 @@
 	// Maximum distance from start to mine
 	"maxMineDistance": 10,
 	// Automatically pick up drops
-	"autoPickup": false,
+	"autoPickup": true,
 	// Tool required to excavate
-	"requiresTool": true,
+	"requiresTool": false,
 	// Stop before tool breaks
-	"dontBreakTool": false,
+	"dontBreakTool": true,
 	// Stop excavating when tool breaks
 	"stopOnToolBreak": true,
 	// Should tool take durability

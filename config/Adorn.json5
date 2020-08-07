@@ -8,7 +8,7 @@
 	// Configuration for Adorn's Extra Pieces support.
 	"extraPieces": {
 		// If true, Adorn's EP support is enabled. You can disable it by setting this property to false.
-		"enabled": true,
+		"enabled": false,
 		// If true, Adorn's Towelette support will be enabled for EP blocks. (warning: resource heavy)
 		"toweletteSupport": false,
 		// If true, enables carpeting for all Adorn chair and table piece blocks (warning: resource heavy).

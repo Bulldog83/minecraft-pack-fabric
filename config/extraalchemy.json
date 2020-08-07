@@ -2,6 +2,8 @@
   "removeInventoryPotionShift": true,
   "learningIncreasesExpOrbValue": true,
   "enableVials": true,
+  "enableRings": true,
+  "enableBrewingStandFire": true,
   "potions": {
     "magnetism": true,
     "photosynthesis": true,

@@ -1,1 +1,0 @@
-execute if score #whose_turn quatro.dummy = #quatro_id dhg.dummy run function dhg:second

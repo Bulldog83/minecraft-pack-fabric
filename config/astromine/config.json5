@@ -18,7 +18,7 @@
 	// Gravity level in Mars
 	"marsGravity": 0.045,
 	// Whether generation of Copper Ore in the Overworld is enabled.
-	"overworldCopperOre": false,
+	"overworldCopperOre": true,
 	// Bottom offset of Overworld Copper ore.
 	"overworldCopperOreBottomOffset": 0,
 	// Top offset of Overworld Copper ore.
@@ -30,7 +30,7 @@
 	// Maximum count of Overworld Copper ore blocks per vein.
 	"overworldCopperOreMaximumBlocks": 14,
 	// Whether generation of Tin Ore in the Overworld is enabled.
-	"overworldTinOre": false,
+	"overworldTinOre": true,
 	// Bottom offset of Overworld Tin Ore.
 	"overworldTinOreBottomOffset": 0,
 	// Top offset of Overworld Tin Ore.
@@ -42,7 +42,7 @@
 	// Maximum count of Overworld Tin Ore blocks per vein.
 	"overworldTinOreMaximumBlocks": 11,
 	// Whether generation of Silver Ore in the Overworld is enabled.
-	"overworldSilverOre": false,
+	"overworldSilverOre": true,
 	// Bottom offset of Overworld Silver Ore.
 	"overworldSilverOreBottomOffset": 0,
 	// Top offset of Overworld Silver Ore.
@@ -380,5 +380,13 @@
 	// Energy for the Gravity Gauntlet.
 	"gravityGauntletEnergy": 16384.0,
 	// Energy for the Gravity Gauntlet actions.
-	"gravityGauntletConsumed": 1024.0
+	"gravityGauntletConsumed": 1024.0,
+	// Energy for the Drill actions.
+	"drillConsumed": 24.0,
+	// Multiplier for the Drill entity hit actions.
+	"drillEntityHitMultiplier": 2.0,
+	// Delay for the Fire Extinguisher sneaking actions.
+	"fireExtinguisherSneakingDelay": 2,
+	// Delay for the Fire Extinguisher standing actions.
+	"fireExtinguisherStandingDelay": 10
 }

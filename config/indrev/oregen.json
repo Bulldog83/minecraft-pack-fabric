@@ -1,5 +1,5 @@
 {
-  "copper": false,
-  "tin": false,
+  "copper": true,
+  "tin": true,
   "nikolite": true
 }

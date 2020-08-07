@@ -162,36 +162,42 @@
     "maxInput": 128.0
   },
   "chopper": {
-    "energyCost": 64.0,
-    "processSpeed": 3.0,
+    "energyCost": 32.0,
+    "processSpeed": 100.0,
     "maxEnergyStored": 50000.0,
-    "maxInput": 4096.0
+    "maxInput": 512.0
   },
   "rancher": {
-    "energyCost": 64.0,
-    "processSpeed": 3.0,
+    "energyCost": 16.0,
+    "processSpeed": 100.0,
     "maxEnergyStored": 50000.0,
-    "maxInput": 4096.0
+    "maxInput": 128.0
   },
   "miner": {
     "energyCost": 64.0,
-    "processSpeed": 0.3,
+    "processSpeed": 200.0,
     "maxEnergyStored": 50000.0,
     "maxInput": 4096.0
   },
-  "fishing_mk2": {
+  "enderMiner": {
+    "energyCost": 64.0,
+    "processSpeed": 400.0,
+    "maxEnergyStored": 50000.0,
+    "maxInput": 4096.0
+  },
+  "fishingMk2": {
     "energyCost": 8.0,
     "processSpeed": 500.0,
     "maxEnergyStored": 50000.0,
     "maxInput": 128.0
   },
-  "fishing_mk3": {
+  "fishingMk3": {
     "energyCost": 16.0,
     "processSpeed": 300.0,
     "maxEnergyStored": 50000.0,
     "maxInput": 512.0
   },
-  "fishing_mk4": {
+  "fishingMk4": {
     "energyCost": 64.0,
     "processSpeed": 200.0,
     "maxEnergyStored": 50000.0,
